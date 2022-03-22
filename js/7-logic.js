@@ -12,7 +12,7 @@
 // console.log('-----------------------');
 
 //// true
-// console.log(Boolean('add'));
+// console.log(Boolean('false'));
 // console.log(Boolean(Infinity));
 // console.log(Boolean(' '));
 // console.log(Boolean(-5));
@@ -33,8 +33,6 @@
 
 /////////////////
 
-// true && true && true
-
 // const dog = 'dog';
 // const dog = '';
 // const dog = null;
@@ -48,15 +46,15 @@
 // false || false || false
 
 // const finalData2 = dog || 'cat'; // if no dog then cat
-// console.log('finalData2', finalData2);
+// console.log(finalData2);
 
 ///////
 
 // const finalData3 = !dog;
-// console.log('finalData3', finalData3);
+// console.log(finalData3);
 
 // const finalData4 = !!dog;
-// console.log('finalData4', finalData4);
+// console.log(finalData4);
 
 ////////////////////////////////////////////
 
@@ -70,7 +68,7 @@
 
 // 0 ------------ 10 ------------- 20 -------------- 30
 
-// const num = 15;
+// const num = 45;
 
 ////// Всередині відрізка:
 // console.log(num >= 10 && num <= 20);
@@ -82,7 +80,7 @@
 
 // Що виведе код?
 
-// console.log("Mango" || "Poly");
+// console.log('Mango' || 'Poly');
 
 // console.log(true && 3);
 

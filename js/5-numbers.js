@@ -4,9 +4,9 @@
 // const userAgeStr = prompt('Enter your age:');
 
 // const userAgeNum = Number(userAgeStr);
-// const userAgeNum = parseInt(userAgeStr);
-// const userAgeNum = parseFloat(userAgeStr);
-// const userAgeNum = +userAgeStr;
+// // const userAgeNum = parseInt(userAgeStr);
+// // const userAgeNum = parseFloat(userAgeStr);
+// // const userAgeNum = +userAgeStr;
 
 // console.log(typeof userAgeStr);
 // console.log(userAgeStr);
@@ -16,7 +16,13 @@
 
 ///////// parseInt, parseFloat
 
-// let font = '2.578964rem';
+// let font = '25.578964rem';
+
+// const integer = parseInt(font);
+// console.log(integer);
+
+// const float = parseFloat(font);
+// console.log(float);
 
 // console.log('parseInt', parseInt(font));
 // console.log('parseFloat', parseFloat(font));
@@ -31,17 +37,31 @@
 
 // const str = '5.9486394474958799';
 // const number = parseFloat(str);
+
+// console.log(number);
+
 // const roundedNumberStr = number.toFixed(2);
-// const roundedNumber = Number(roundNumberStr);
+// const roundedNumber = Number(roundedNumberStr);
+
+// console.log(roundedNumber);
+
+//////////
+
+// const str = '5.9486394474958799';
+
+// const roundedNumber = Number(parseFloat(str).toFixed(2));
+
 // console.log(roundedNumber);
 
 ///////// isNaN
 
-// const str = '555qwed';
+// const str = '555';
 
 // const numberFromString = Number(str);
 // console.log(numberFromString); // NaN
 // console.log(Number.isNaN(numberFromString));
+
+// console.log(NaN === NaN);
 
 /////////////////////////////////////////////////////////
 
@@ -56,7 +76,7 @@
 // console.log(Math.abs(-10));
 // console.log(Math.pow(3, 4));
 // console.log(Math.sqrt(16));
-// console.log(Math.max(-50, -40, 5, 100, 100));
+// console.log(Math.max(-50, -40, 5, 100, 500));
 // console.log(Math.min(5, 2, -4));
 // console.log(Math.random()); // 0 - 0.9999999999
 
@@ -73,8 +93,8 @@
 // Визначити площу кола з радіусом 10 см
 
 // const radius = 10;
-// const area = Math.PI * Math.pow(radius, 2);
-// const area = Math.PI * radius * radius;
+// // const area = Math.PI * Math.pow(radius, 2);
+// // const area = Math.PI * radius * radius;
 // const area = Math.PI * radius ** 2;
 
 // console.log(area);
@@ -92,11 +112,13 @@
 // let c = '12';
 // console.log(a + b + c);
 
+// console.log(3 + '12' + 10);
+
 ////////////////////////////////////////////////////// -
 
 // let a = 10;
-// let b = '2';
-// console.log(b - a); // 8
+// let b = '5';
+// console.log(a - b); // 8
 
 /////////////////////////////////////////////////////// *
 

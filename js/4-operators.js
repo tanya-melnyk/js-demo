@@ -8,7 +8,12 @@
 // const appleCount = 47;
 // const grapeCount = 135;
 
+// const total = appleCount + grapeCount; // 182
+// // const total = 47 + 135;
+
 // console.log('total', total);
+
+// const diff = appleCount - grapeCount;
 
 // console.log('diff', diff);
 
@@ -21,6 +26,7 @@
  */
 
 // const result = 10 + 22 - 2 * 5;
+
 // console.log(result);
 
 /////////////////////////////////////////////////////
@@ -54,7 +60,11 @@
 // Заміни вираз перевизначення комбінованим оператором +=.
 
 // let students = 100;
-// students = students + 50;
+
+// // students = students + 50;
+
+// students += 50;
+
 // console.log(students);
 
 ///////////
@@ -78,13 +88,19 @@
 // Оператор залишку від ділення %
 
 // const a = 11;
-// const b = 4;
+// const b = 6;
 
 // // console.log(a % b);
 
-// ///////////
+// console.log(a % 2);
+// console.log(b % 2);
 
-// // Перевірити, чи є а та b парними числами
+// // ///////////
+
+// // // Перевірити, чи є а та b парними числами
+
+// const isAEven = a % 2 === 0;
+// const isBEven = b % 2 === 0;
 
 // console.log('isAEven', isAEven);
 // console.log('isBEven', isBEven);
@@ -123,3 +139,5 @@
 // console.log(undefined == null);
 
 // console.log(undefined === null);
+
+// console.log(5 !== 10);

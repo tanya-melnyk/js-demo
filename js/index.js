@@ -1,11 +1,13 @@
 // 'use strict';
 
 // Перевизначення ключових слів
+
 // var undefined = false;
 
 // console.log(undefined);
 
 // Оголошення глобальних змінних
+
 // a = 5;
 
 // console.log(a);

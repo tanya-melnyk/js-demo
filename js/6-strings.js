@@ -4,9 +4,19 @@
  * "Hello, my name is [name], I'm [age] years old and I like [hobby]", де у квадратних дужках - змінні вставлені в рядок
  */
 
-// const name = 'Dan';
+// const name = 'Joe';
 // const age = 35;
 // const hobby = 'swimming';
+
+// // const msg =
+// //   'Hello, my name is ' +
+// //   name +
+// //   ", I'm " +
+// //   age +
+// //   ' years old and I like ' +
+// //   hobby;
+
+// const msg = `Hello, my name is ${name}, I'm ${age} years old and I like ${hobby}`;
 
 // console.log(msg);
 
@@ -33,9 +43,18 @@
  */
 
 // const str = 'Hello world!';
+
+// // console.log(str.length);
+
 // const subStr = 'hello';
 
-// Перевірити, чи входить subStr у str
+// // Перевірити, чи входить subStr у str
+
+// const strLower = str.toLowerCase();
+// const subStrLower = subStr.toLowerCase();
+// const isIncluded = strLower.includes(subStrLower);
+
+// // const isIncluded = str.toLowerCase().includes(subStr.toLowerCase());
 
 // console.log(isIncluded);
 
@@ -43,7 +62,15 @@
 
 // const str = 'Hello world I`m happy!';
 
-// console.log(str[0]);
+// console.log(str[1]);
+
+// const lastIndex = str.length - 1;
+
+// console.log(str.length);
+
+// console.log(lastIndex);
+
+// console.log(str[lastIndex]);
 
 // const lastIndex = str.length - 1;
 // console.log(str[lastIndex]);
@@ -56,8 +83,8 @@
 
 // let str = "The quick red fox jumped over the lazy dog's back.";
 
-// const strPart = str.slice();
-// const strPart = str.slice(0, 5);
+// const strPart = str.slice(10);
+// const strPart = str.slice(0, 20);
 // const strPart = str.slice(-5);
 // const strPart = str.slice(4);
 
@@ -88,8 +115,8 @@
 
 // Методы replace() и replaceAll()
 
-// const p =
-//   'The fox jumps over the lazy dog. If the dog reacted, was it really lazy?';
+const p =
+  'The fox jumps over the lazy dog. If the dog reacted, was it really lazy?';
 
 // console.log(p.replace('dog', 'monkey'));
 // console.log(p.replaceAll('dog', 'monkey'));
@@ -123,5 +150,10 @@
 
 // let weight = '88,3';
 // let height = '1.75';
+
+// const weightNorm = Number(weight.replace(',', '.'));
+// const heightNorm = Number(height.replace(',', '.'));
+
+// const bmi = (weightNorm / heightNorm ** 2).toFixed(1);
 
 // console.log(bmi); // 28.8
