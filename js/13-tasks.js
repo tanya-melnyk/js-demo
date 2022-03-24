@@ -8,6 +8,15 @@
 
 // const login = prompt('Enter login');
 
+// if (login === 'admin') {
+//   const password = prompt('Enter password');
+//   alert(password === 'boss' ? 'Welcome' : 'Wrong password');
+// } else if (login === null || login === '') {
+//   alert('Cancelled');
+// } else {
+//   alert("I don't know you");
+// }
+
 //
 //
 //

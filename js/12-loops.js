@@ -1,8 +1,30 @@
 // Приклад 1 - Цикл for
 // Напиши цикл for який виводить у консоль браузера числа за зростанням від min до max, але тільки якщо число кратне 5.
 
-// const max = 100;
 // const min = 20;
+// const max = 50;
+
+// console.log('start');
+
+// // for (let i = min; i <= max; i += 1) {
+// //   if (i % 5 === 0) {
+// //     console.log(i);
+// //   }
+// // }
+
+// for (let i = min; i <= max; i += 1) {
+//   if (i % 5 !== 0) {
+//     continue;
+//   }
+
+//   console.log(i);
+
+//   if (i === 45) {
+//     break;
+//   }
+// }
+
+// console.log('finish');
 
 //////////////////////////////////////////////////////////
 
@@ -12,22 +34,14 @@
 // const max = 100;
 // const min = 90;
 
-//////////////////////////////////////////////////////////
-
-// Приклад 3 - Цикл for
-// За допомогою циклу for виведіть парні числа від 1 до 10.
-
-// let min = 1;
-// const max = 10;
-
-// Рішення 1:
-
-// Рішення 2: з continue
+// for (let i = max; i >= min; i -= 1) {
+//   console.log(i);
+// }
 
 ////////////////////////////////////////////////////
 
 /*
- * Приклад 4 - Запитати у користувача число 3 рази (`Enter a number #${currentCount} of ${totalCount}`)
+ * Приклад 3 - Запитати у користувача число 3 рази (`Enter a number #${currentCount} of ${totalCount}`)
  * Порахувати суму цих чисел і вивести на екран (`Total sum is ${sum}`)
  * Якщо користувач натиснув Cancel, необхідно зупинити цикл і вивести на екран повідомлення ('You finished the game').
  * Якщо ввів не число, то вивести на екран повідомлення (`${userAnswer} is not a number! Try again`) і перервати цю ітерацію
@@ -46,10 +60,31 @@
 // let currentCount = 1;
 // let sum = 0;
 
+// while (currentCount <= totalCount) {
+//   const userAnswer = prompt(`Enter a number #${currentCount} of ${totalCount}`);
+
+//   if (userAnswer === null) {
+//     alert('You finished the game');
+//     break;
+//   }
+
+//   const userNum = Number(userAnswer);
+
+//   if (Number.isNaN(userNum)) {
+//     alert(`${userAnswer} is not a number! Try again`);
+//     continue;
+//   }
+
+//   sum += userNum;
+//   currentCount += 1;
+// }
+
+// alert(`Total sum is ${sum}`);
+
 //////////////////////////////////////////////////////////
 
 /*
- * Приклад 5 - Цикл do...while
+ * Приклад 4 - Цикл do...while
  * Напишіть цикл, який пропонує ввести число більше 100 через prompt ('Enter a number more than 100').
  * Якщо користувач ввів інше число - попросити ввести ще раз, і так далі ('You missed! Try again').
  * Цикл повинен запитувати число поки:

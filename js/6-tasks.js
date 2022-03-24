@@ -1,3 +1,8 @@
+// console.log(true || (false && false));
+// true || false
+
+///////////////////////////////////////////
+
 // Значення за замовчуванням та оператор нульового злиття ?? (nullish coalescing operator)
 
 // Відрефактори код так, щоб у змінну value привласнилося значення змінної incomingValue, якщо воно не дорівнює undefined або null.
@@ -5,11 +10,11 @@
 // Перевір роботу скрипта для наступних значень змінної incomingValue: null, undefined, 0, false.
 // Використовуй оператор ??
 
-// const incomingValue = 5;
+// const incomingValue = undefined;
 
 // const defaultValue = 10;
 
-// const value = incomingValue || defaultValue;
+// const value = incomingValue ?? defaultValue;
 
 // console.log(value);
 
@@ -42,4 +47,12 @@
 // 450 покаже 07:30
 // 1441 покаже 24:01
 
-// const totalMinutes = 70;
+// const totalMinutes = 50;
+
+// const hours = Math.floor(totalMinutes / 60);
+// const mins = totalMinutes % 60;
+
+// const hoursFull = String(hours).padStart(2, 0);
+// const minsFull = String(mins).padStart(2, 0);
+
+// console.log(`${hoursFull}:${minsFull}`);

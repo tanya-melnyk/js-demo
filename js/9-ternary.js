@@ -11,13 +11,15 @@
 
 // const cash = 90;
 // const taxiPrice = 100;
-// let result;
+// // let result;
 
-// if (cash >= taxiPrice) {
-//   result = 'Let`s go!';
-// } else {
-//   result = 'Not enough';
-// }
+// // if (cash >= taxiPrice) {
+// //   result = 'Let`s go!';
+// // } else {
+// //   result = 'Not enough';
+// // }
+
+// const result = cash >= taxiPrice ? 'Let`s go!' : 'Not enough';
 
 // console.log(result);
 
@@ -26,18 +28,24 @@
 // Простий тернарний оператор
 
 // let a = 20;
-// let b = 10;
-// let result = '';
+// let b = 30;
+// // let result = '';
 
-// if (a > b) {
-//   result = '"A" wins';
-// } else {
-//   result = '"B" wins';
-// }
+// // if (a > b) {
+// //   result = '"A" wins';
+// // } else {
+// //   result = '"B" wins';
+// // }
+
+// const result = a > b ? '"A" wins' : '"B" wins';
 
 // console.log(result);
 
 // Вкладений тернарний оператор
+
+// let a = 50;
+// let b = 60;
+// let result = '';
 
 // if (a > b) {
 //   result = '"A" wins';
@@ -47,6 +55,8 @@
 //   result = 'Draw!';
 // }
 
+// result = a > b ? '"A" wins' : a < b ? '"B" wins' : 'Draw!';
+
 // console.log(result);
 
 //////////////////////////////////
@@ -55,11 +65,11 @@
 
 // const login = prompt('Enter login');
 
-// if (login.length >= 4) {
-//  alert('Congratulation you are in');
-// } else {
-//  alert('Enter longer login');
-// }
+// // if (login.length >= 4) {
+// //  alert('Congratulation you are in');
+// // } else {
+// //  alert('Enter longer login');
+// // }
 
 // login.length >= 4
 //   ? alert('Congratulation you are in')
