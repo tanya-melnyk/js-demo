@@ -3,23 +3,32 @@
  */
 
 // ✅ Де це доцільно
-let result;
+// let result;
 
-if (a + b < 4) {
-  result = 'Мало';
-} else {
-  result = 'Багато';
-}
+// result = 1 + 2 < 4 ? 'Мало' : 'Досить багато';
+
+// if (a + b < 4) {
+//   result = 'Мало';
+// } else {
+//   result = 'Багато';
+// }
 
 // ❌ Де це недоцільно
-let message;
+// let message =
+//   login === 'Сотрудник'
+//     ? 'Привет'
+//     : login === 'Директор'
+//     ? 'Здравствуйте'
+//     : login === ''
+//     ? 'Нет логина'
+//     : ' ';
 
-if (login === 'Сотрудник') {
-  message = 'Привет';
-} else if (login === 'Директор') {
-  message = 'Здравствуйте';
-} else if (login === '') {
-  message = 'Нет логина';
-} else {
-  message = '';
-}
+// if (login === 'Сотрудник') {
+//   message = 'Привет';
+// } else if (login === 'Директор') {
+//   message = 'Здравствуйте';
+// } else if (login === '') {
+//   message = 'Нет логина';
+// } else {
+//   message = '';
+// }
