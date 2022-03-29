@@ -2,8 +2,8 @@
 
 // const array = [10, 20, 30];
 
-// const result = array.push(40);
-// const result2 = array.push(50, 60);
+// const result = array.push(40); // 4
+// const result2 = array.push(50, 60); // 6
 
 // console.log('array', array);
 // console.log('result', result); // array length 4
@@ -24,12 +24,12 @@
 
 // const array = [10, 20, 30];
 
-// const result = array.unshift(0);
-// const result2 = array.unshift(-2, -1, 25);
+// const result = array.unshift(0); // 4
+// const result2 = array.unshift(-2, -1, 25); // 7
 
 // console.log('array', array);
 // console.log('result', result); // array length 4
-// console.log('result2', result2); // array length 6
+// console.log('result2', result2); // array length 7
 
 ////// shift
 

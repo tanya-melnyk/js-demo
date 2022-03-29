@@ -19,12 +19,12 @@
 
 // PASTE WITHOUT DELETE
 
-// const arrPart = arr.splice(2, 0, 100, 55, 66);
+// const arrPart = arr.splice(2, 0, 100, 100, 100);
 // console.log('arr', arr);
 // console.log('arrPart', arrPart);
 
 // PASTE WITH DELETE
 
-// const arrPart = arr.splice(1, 2, 50, 25);
+// const arrPart = arr.splice(1, 2, 'hello');
 // console.log('arr', arr);
 // console.log('arrPart', arrPart);

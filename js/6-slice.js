@@ -2,11 +2,12 @@
 // start index and end index (not included)
 
 // const arr = [5, 10, 12, 15, 25];
-// const start = 1;
-// const end = 3;
-// const arrCopy = arr.slice(1, 3);
 
-// // console.log(arr);
+// const arrCopy = arr.slice(-3, -2);
+
+// console.log(arr === arrCopy);
+
+// console.log(arr);
 // console.log(arrCopy);
 
 ///////////////// Copy

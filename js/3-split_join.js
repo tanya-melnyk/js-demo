@@ -1,12 +1,13 @@
 // const str = 'Keep calm and carry on';
-// // // const str = 'Keep|calm|and|carry|on';
+// // const str = 'Keep|calm|and|carry|on';
 
-// const delimeter = ' ';
+// // const delimeter = 'a';
+
 // const connector = '|';
 
-// const arrFromStr = str.split(delimeter);
-// const arrFromStr = str.split('');
-// const strFromArray = arrFromStr.join(connector);
+// const arrFromStr = str.split(' ');
+
+// const strFromArray = arrFromStr.join();
 
 // // console.log(str);
 // console.log(arrFromStr);
@@ -18,6 +19,25 @@
 // Значення гарантовано розділені пробілом.
 
 // const values = '8 11';
+
+// const arr = values.split(' ');
+
+// const square = Number(arr[0]) * Number(arr[1]);
+
+// console.log(arr);
+// console.log(square);
+
+//////////////////////////////////////////////////////////
+
+// const password = '    5   5     ';
+// const passwordNorm = '    5   5     '.trim();
+
+// console.log(password);
+// console.log(passwordNorm);
+
+// if (password.length > 7) {
+//   console.log('OK');
+// }
 
 ////////////////////////////////////////////////////////////
 
@@ -39,3 +59,7 @@
 // // Перевірити, чи є слово паліндромом
 // const word = 'потоп';
 // // const word = 'ропот';
+
+// const reversedStr = word.split('').reverse().join('');
+
+// console.log(word === reversedStr);
