@@ -92,20 +92,48 @@
 */
 
 // const courses = ['HTML', 'CSS', 'JavaScript', 'React', 'PostgreSQL'];
+// console.log(courses);
+
+// function addCourse(courseName) {
+//   if (!courseName) {
+//     console.log('Add some course');
+//     return;
+//   }
+//   if (courses.includes(courseName)) {
+//     console.log(`The ${courseName} course already exists`);
+//     return;
+//   }
+//   courses.push(courseName);
+// }
+
+// const removeCourse = function (courseName) {
+//   if (!courses.includes(courseName)) {
+//     alert(`No course with name - ${courseName}`);
+//     return;
+//   }
+//   const indexToDelete = courses.indexOf(courseName);
+//   courses.splice(indexToDelete, 1);
+// };
+
+// const updateCourse = (oldName, newName) => {
+//   const indexToUpdate = courses.indexOf(oldName);
+//   courses[indexToUpdate] = newName;
+//   // courses.splice(indexToUpdate, 1, newName);
+// };
 
 // addCourse('Express'); // ['HTML', 'CSS', 'JavaScript', 'React', 'PostgreSQL', 'Express']
-// addCourse('CSS'); // 'The course already exists'
+// addCourse('HTML'); // 'The course already exists'
 // addCourse(); // 'Add some course'
 // console.log(courses);
 
 // removeCourse('React'); // ['HTML', 'CSS', 'JavaScript', 'PostgreSQL', 'Express']
-// removeCourse('Vue'); // 'No course with this name'
-// removeCourse(); // 'Give me course name to delete'
+// removeCourse('Angular'); // 'No course with this name'
+// // removeCourse(); // 'Give me course name to delete'
 // console.log(courses);
 
 // updateCourse('Express', 'NestJS'); // ['HTML', 'CSS', 'JavaScript', 'PostgreSQL', 'NestJS']
-// updateCourse('NestJS'); // 'Give me course names to change'
-// updateCourse('Angular', 'NextJS'); // 'No course with this name'
+// // updateCourse('NestJS'); // 'Give me course names to change'
+// // updateCourse('Angular', 'NextJS'); // 'No course with this name'
 // console.log(courses);
 
 ////////////////////////////////////////////////////////////
@@ -129,9 +157,16 @@
 
 ///////////////////////////////////////////////////////////
 
-// Напишіть функцію, яка вважає суму цифр у числі та повертає її
+// Напишіть функцію, яка рахує суму цифр у числі та повертає її
 
-// const calcDiditsSum = number => {};
+// const calcDiditsSum = number => {
+//   const arr = String(number).split('');
+//   let sum = 0;
+//   for (const num of arr) {
+//     sum += Number(num);
+//   }
+//   return sum;
+// };
 
 // console.log(calcDiditsSum(123)); // 6
 // console.log(calcDiditsSum(258)); // 15

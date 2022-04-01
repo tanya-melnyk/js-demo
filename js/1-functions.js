@@ -12,21 +12,26 @@
 
 // Навіщо потрібні функції
 
-// const items = ['Mango', 'Poly', 'Ajax'];
-
-//   for (let i = 0; i < items.length; i += 1) {
+// function logItems(array) {
+//   for (let i = 0; i < array.length; i += 1) {
 //     const position = i + 1;
-//     const item = items[i];
+//     const item = array[i];
 //     console.log(`${position} - ${item}`);
 //   }
+// }
+
+// const items = ['Mango', 'Poly', 'Ajax'];
+// logItems(items);
 
 // console.log('------------------');
 
 // const seasons = ['Winter', 'Spring', 'Summer', 'Fall'];
+// logItems(seasons);
 
 // console.log('------------------');
 
 // const animals = ['cat', 'dog', 'horse', 'cow'];
+// logItems(animals);
 
 ///////////////////////////////////////////////////
 
@@ -39,26 +44,32 @@
 
 // const a = 2;
 // const b = 5;
-// const result = addNumbers(a, b);
-// console.log(result); // 7
 
-// function addNumbers(num1, num2) {
-//   const result = num1 + num2;
-//   return result;
+// const result = sumTwoNumbers(a, b);
+
+// console.log(result);
+
+// function sumTwoNumbers(num1, num2) {
+//   console.log('Function has been called');
+//   const sum = num1 + num2;
+//   return sum;
 // }
 
 /////////////////////////////
 // function expression
 /////////////////////////////
 
-// const addNumbers = function (num1, num2) {
-//   const result = num1 + num2;
-//   return result;
-// };
-
 // const a = 2;
 // const b = 5;
-// const result = addNumbers(a, b);
+
+// const addTwoNumbers = function (num1, num2) {
+//   console.log('Function has been called');
+//   const sum = num1 + num2;
+//   return sum;
+// };
+
+// const result = addTwoNumbers(a, b);
+
 // console.log(result); // 7
 
 /////////////////////////////
@@ -66,20 +77,22 @@
 // Немає свого this і arguments
 /////////////////////////////
 
-// const addNumbers = (num1, num2) => {
-//   const result = num1 + num2;
-//   return result;
+// const a = 2;
+// const b = 5;
+
+// const addTwoNumbers = (num1, num2) => {
+//   console.log('Function has been called');
+//   const sum = num1 + num2;
+//   return sum;
 // };
 
-// const addNumbers = (num1, num2) => {
+// const addTwoNumbers = (num1, num2) => {
 //   return num1 + num2;
 // };
 
-// const addNumbers = (num1, num2) => num1 + num2;
+// const addTwoNumbers = (num1, num2) => num1 + num2;
 
-// const a = 2;
-// const b = 5;
-// const result = addNumbers(a, b);
+// const result = addTwoNumbers(a, b);
 // console.log(result); // 7
 
 // console.log(addNumbers(a, b)); // 7
@@ -91,10 +104,14 @@
 // const a = 1;
 // const b = 2;
 
+// console.log('Оголошуємо функцію addTwoNumbers');
+
 // const addTwoNumbers = function () {
+//   console.log('Функція addTwoNumbers викликана');
 //   return a + b;
 // };
 
+// console.log('Оголошуємо змінну functionResult');
 // const functionResult = addTwoNumbers();
 
 // console.log('Значення functionResult -', functionResult);
@@ -119,7 +136,7 @@
 
 // const functionResult = subtractNumbers(b, a);
 
-// const functionResult = subtractNumbers(5, 7);
+// // const functionResult = subtractNumbers(5, 7);
 
 // console.log(functionResult);
 
@@ -134,15 +151,17 @@
 // console.log('arr', arr);
 
 // const pasteInArray = function (array, elem) {
-//   const middleIndex = Math.floor(array.length / 2);
-//   array.splice(middleIndex, 0, elem);
-//   return array;
+//   const arrayCopy = array.slice();
+//   const middleIndex = Math.floor(arrayCopy.length / 2);
+//   arrayCopy.splice(middleIndex, 0, elem);
+//   return arrayCopy;
 // };
 
 // const result = pasteInArray(arr, num);
 // console.log('result', result);
 
 // console.log('arr', arr);
+// console.log('num', num);
 
 ///////////////////////////////////////////////////////////
 
@@ -155,6 +174,10 @@
  * Якщо аргументи не передані, має виводитися рядок:
    'User has trial version for 30 days';
  */
+
+// function showMessage(name = 'User', days = 30) {
+//   return `${name} has trial version for ${days} days`;
+// }
 
 // const result = showMessage('Jack', 60);
 // console.log(result);

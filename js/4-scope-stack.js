@@ -1,17 +1,13 @@
 // scope
 
 // function showNumber(a) {
-//   a = 50;
 //   console.log('a in showNumber - ', a);
+//   let b = 5;
+//   console.log('b', b);
 
 //   function showAnotherNumber() {
 //     let a = 30;
 //     console.log('a in showAnotherNumber - ', a);
-
-//     function lastNumber() {
-//       console.log('a in lastNumber - ', a);
-//     }
-//     lastNumber();
 //   }
 
 //   showAnotherNumber();
@@ -22,6 +18,7 @@
 // showNumber(a);
 
 // console.log('a in global - ', a);
+// console.log('b', b);
 
 /////////////////////////////////////////////////////
 
@@ -83,10 +80,10 @@
 //   }
 // }
 
-// // debugger;
+// debugger;
 // countDown(3);
 
-// // countDown(11500);
+// countDown(11500);
 
 /////////////////////////////////////////////////////////////////
 
@@ -98,13 +95,13 @@
 //   console.log('Hi');
 // })();
 
-// const num = (function () {
-//   return 5;
-// })();
-// console.log(num);
+// // const num = (function () {
+// //   return 5;
+// // })();
+// // console.log(num);
 
 // (function () {
-//   let firstVariable = 5;
+//   var firstVariable = 5;
 
 //   console.log(firstVariable);
 // })();
