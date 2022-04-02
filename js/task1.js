@@ -1,21 +1,8 @@
+// todo Середнє значення
 /*
- * Перевірити, чи є змінна невизначеною
+ * Напишіть функцію calAverage() яка приймає довільну кількість аргументів і повертає їхнє середнє значення. Усі аргументи будуть лише числами.
  */
 
-// const a = 'undefined';
-
-// if (typeof a === 'undefined') {
-//   console.log('condition is true');
-// }
-
-// function isUndefined(string) {
-//   if (typeof string === 'undefined') {
-//     return console.log('condition is true');
-//   }
-
-//   return console.log('condition is false');
-// }
-
-// isUndefined(undefined);
-// isUndefined('undefined');
-// isUndefined(a);
+console.log(calAverage(1, 2, 3, 4)); // 2.5
+console.log(calAverage(14, 8, 2)); // 8
+console.log(calAverage(27, 43, 2, 8, 36)); // 23.2

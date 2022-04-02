@@ -1,9 +1,8 @@
+// todo Форматування часу
 /*
- * Перевірити, чи є число цілим
+ * Напиши функцію formatTime(minutes) яка переведе значення minutes (кількість хвилин) у рядок у форматі годин та хвилин HH:MM.
  */
 
-const num = 6;
-
-if (num % 1 === 0) {
-  console.log(`${num} is integer`);
-}
+console.log(formatTime(70)); // "01:10"
+console.log(formatTime(450)); // "07:30"
+console.log(formatTime(1441)); // "24:01"
