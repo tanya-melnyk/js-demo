@@ -9,6 +9,11 @@
 // const isOnSale = false; // true
 // const error = null;
 // let quantity;
+// console.log('typeof quantity:', typeof pricePerItem
+// )
+
+
+
 
 // console.log(typeof productName);
 // console.log(typeof pricePerItem);

@@ -16,3 +16,25 @@
 // const isStudent = confirm('Are you a student?');
 
 // console.log(isStudent);
+
+
+
+//
+//
+// Порядок срабатывания скриптов
+const number = 10
+console.log('3 - срабатывает скрипт с атрибутом defer в <head> -', number)
+//
+// alert("hello")
+// window.alert("hi")
+//
+//
+// prompt() - появляется поле - если ввести значение, то при ЛОГИРОВАНИИ переменной name - отобразится значение введенное пользователем
+// const name = prompt("What is your name?")
+// console.log('name:', name)
+// console.log('typeof name:', typeof name)
+//
+//
+//
+// const isStudent = confirm("Are you student")
+// console.log('isStudent:', isStudent)
