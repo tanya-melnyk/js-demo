@@ -1,32 +1,40 @@
 // Приведення типів
-// Метод Boolean та falsy значення
-
+// Метод Boolean та true/falsy значення
+console.log('21) класс Boolean()')
+console.log('')
 //// false
-// console.log(Boolean(NaN));
-// console.log(Boolean(undefined));
-// console.log(Boolean(null));
-// console.log(Boolean(0));
-// console.log(Boolean(''));
-// console.log(Boolean(false));
+console.log('falsy значения:');
+console.log('Boolean(NaN)', Boolean(NaN));
+console.log('Boolean(undefined)', Boolean(undefined));
+console.log('Boolean(null)', Boolean(null));
+console.log('Boolean(0)', Boolean(0));
+console.log('Boolean("")', Boolean(''));
+console.log('Boolean(false)', Boolean(false));
+console.log('')
 
 // console.log('-----------------------');
 
 //// true
-// console.log(Boolean('false'));
-// console.log(Boolean(Infinity));
-// console.log(Boolean(' '));
-// console.log(Boolean(-5));
-// console.log(Boolean([]));
-// console.log(Boolean({}));
-
+console.log('true значения:');
+console.log('Boolean("false")', Boolean('false'));
+console.log('Boolean(Infinity)', Boolean(Infinity));
+console.log('Boolean(" ")', Boolean(' '));
+console.log('Boolean(-5)', Boolean(-5));
+console.log('Boolean([])', Boolean([]));
+console.log('Boolean({})', Boolean({}));
+console.log('')
 ////////////////////////////////////////////////////
 
 // Логічні оператори
-
+console.log('Логичные операторы')
 // - повертають не true або false, а значення змінної
 // - не порівнюють два операнди зліва і справа, а перевіряють булеве значення операнда зліва, а потім вже приймають рішення
 // - пріоритет операторів – спочатку &&, потім ||
 
+console.log('&& - логическое И - запинается на лжи - т.е. первое ложное значение будет результатом выражения - т.к. 0 - это falsy - 0 && 5', 0 && 5)
+console.log('|| - логическое ИЛИ - запинается на правде - т.е. первое правдивое значение будет результатом выражения - т.к. 4 - это true - 4 || 5', 4 || 5)
+console.log('! - логическое НЕ - приводит к БУЛЮ + ИНВЕРТИРУЕТ ТИП - !5', !5)
+console.log('!! - логическое НЕ - приводит к БУЛЮ !!5', !!5)
 // && and
 // || or
 // ! not
@@ -170,3 +178,9 @@
 // console.log(false && 'false' && -Infinity);
 
 // console.log('true' && -0 && null);
+
+console.log(Number("15,5"));
+console.log("15,5".replace(",", "."));
+console.log(Number("15,5".replace(",", ".")));
+
+console.log(Number(parseFloat("15,5px")));
