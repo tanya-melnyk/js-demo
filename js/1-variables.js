@@ -1,3 +1,4 @@
+'use strict';
 /*
  * Оголошення
  * Оголосити дві змінні без ініціалізації – одну міняти не можна буде, іншу можна
@@ -7,8 +8,9 @@
 // const variable1 = 5;
 // let variable2 = 0;
 
-// variable2 = 10;
-// variable2 = 'Hello';
+// let variable3;
+// console.log('variable3:', variable3)
+// // variable2 = 'Hello';
 
 // console.log('variable1 -', variable1);
 // console.log('variable2 -', variable2);

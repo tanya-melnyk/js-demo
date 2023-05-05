@@ -4,20 +4,26 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Module 1</title>
+    <!-- <script defer src="..."</script> = defer АТРИБУТ для подключения СКРИПТА в HEAD -->
+    <script defer src="./js/3-alert_prompt_confirm.js" type="module"></script>
   </head>
 
   <body>
     <h1>Hello world</h1>
 
-    <!-- <script>
-      console.log('JS');
-    </script> -->
+    <!-- прописываю скрипт в БОДИ -->
+    <script>
+      const first = 1;
+      console.log('1 - срабатывает JS встроенный в <body>', first);
+    </script>
+    <!-- При работе в type="module" =  'use strict' срабатывает автоматически-->
 
+    <!-- СТРОГИЙ РЕЖИМ - 'use strict' - если type="module" - не стоит, то в самом файле скрипта  работаю в 'use strict' - при дублировании названия переменной будет давать ошибку, если использовать БЕЗ ЮЗ-СТРИКТ и БЕЗ ТАЙП-МОДУЛЬ - то будет использоваться глобальный режим без ошибок. -->
     <script src="./js/index.js"></script>
 
+    <!-- type="module" - создаю закрытый скрипт, т.е. если название переменной будет дублироваться в следующем скрипте - то ошибки не будет, т.к. область видимости данного скрипта будет определяться - type="module"  -->
     <script src="./js/1-variables.js" type="module"></script>
     <script src="./js/2-types.js" type="module"></script>
-    <script src="./js/3-alert_prompt_confirm.js" type="module"></script>
     <script src="./js/4-operators.js" type="module"></script>
     <script src="./js/5-numbers.js" type="module"></script>
     <script src="./js/6-strings.js" type="module"></script>
